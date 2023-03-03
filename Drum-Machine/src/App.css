@@ -1,0 +1,56 @@
+.drum-pad {
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    background-color: #e1ffa6;
+    border: 1px solid rgb(38, 57, 77, 0.4);
+}
+
+#display {
+    margin: 10% auto -7%;
+    padding: 5px;
+    background-color: #fffa7a;
+    width: 100px;
+    border: 1px solid rgb(38, 57, 77, 0.7);
+    height: 40px;
+    border-radius: 5px;
+}
+
+.drum-pad,
+#display {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.drum-pad:active {
+    scale: 90%;
+}
+
+.d-flex {
+    height: 100vh;
+}
+
+.row-2 {
+    margin-left: 10em;
+    margin-top: 2rem;
+}
+
+.row-1 {
+    margin-top: 15%;
+    margin-left: 7em;
+}
+
+@media (max-width: 600px) {
+
+    .row-1,
+    .row-2 {
+        margin: 70px 35% 0px;
+    }
+
+    .row-2 {
+        margin-top: 0px;
+    }
+
+    .drum-pad {
+        margin-top: 5px;
+    }
+}
